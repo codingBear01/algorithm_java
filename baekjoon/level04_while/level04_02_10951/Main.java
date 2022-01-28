@@ -10,6 +10,7 @@ public class Main {
 
             while(true){            
                 st = new StringTokenizer(br.readLine(), " ");
+                int A = Integer.parseInt(st.nextToken());
                 int B = Integer.parseInt(st.nextToken());
     
                 if(A == 0 && B == 0){
