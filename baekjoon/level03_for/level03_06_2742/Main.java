@@ -8,13 +8,9 @@ public class Main {
             
             br.close();
 
-            for(int i = 1; i <=N; i++){
+            for(int i = N; i > 0; i--){
                 System.out.println(i);
             }
-            // while(i <= N) {
-            //     System.out.println(i);
-            //     i++;
-            // }
         }
     }
 
